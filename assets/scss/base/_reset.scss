@@ -10,26 +10,9 @@
 
 }
 
-html{
-    font-size: 62.5%;
-}
-
-body{
-    font-size: 1.4rem;
-    font-family: 'Rubik', sans-serif;
-    line-height: 2.4rem;
-    overflow-x: hidden;
-    
-    a{
-        cursor: none !important;
-    }
-}
-
-.error404{
-    cursor: pointer;
-    a{
-        cursor: pointer !important;
-    }
+.btn.focus, .btn:focus, .btn:hover{
+    box-shadow: none;
+    text-decoration: none;
 }
 
 body::-webkit-scrollbar {
@@ -45,11 +28,11 @@ body::-webkit-scrollbar-thumb {
   outline: 1px solid slategrey;
 }
 
-p,ul,ol,p,span,i,h1,h2,h3,h4,h5,h6,img,div{
-      user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-}
+// p,ul,ol,p,span,i,h1,h2,h3,h4,h5,h6,img,div{
+//     user-select: none;
+//   -webkit-user-select: none;
+//   -moz-user-select: none;
+// }
 
 [class^="flaticon"]{
     font-size: 20px;
